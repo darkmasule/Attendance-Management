@@ -171,12 +171,8 @@ body {
     flex-direction: column;
 }
 
-.qrgen select {
+.qrgen select, input {
     width: 150px;
-}
-
-.qrgen input {
-    width: 145px;
 }
 
 .qrgen button {
