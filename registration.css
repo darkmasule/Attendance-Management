@@ -1,0 +1,11 @@
+#regpanel {
+    display: none;
+    flex-direction: column;
+    border: black 2px solid;
+    gap: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}

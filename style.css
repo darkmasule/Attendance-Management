@@ -1,0 +1,86 @@
+body {
+    height: 95vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginheader {
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    border: black solid 2px;
+    padding: 10px;
+    height: 350px;
+    width: 315px;
+    gap: 0px;
+}
+
+#login a {
+    text-decoration: none;
+}
+
+#emailsect {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+}   
+
+.email {
+    width: 250px;
+    height: 25px;
+    position: relative;
+    left: 32px;
+    top: 30px;
+}
+
+#password, #email {
+    margin-top: -7px;
+}
+
+#passwordsect {
+    display: flex;
+    flex-direction: column;
+}
+
+.password {
+    width: 250px;
+    height: 25px;
+    position: relative;
+    left: 32px;
+    top: 30px
+}
+
+#loginbutton {
+    position: relative;
+    height: 20px;
+    width: 250px;
+    top: 45px;
+    left: 36px;
+}
+
+#miscsec {
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+#register {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#forgot {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 76px;
+}

@@ -1,0 +1,132 @@
+@media (max-width: 1440px) { /* Computer */
+    body {
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    flex: 1;
+    background-color: grey;
+    display: flex;
+}
+
+.navbar .buttons{
+    flex: 1;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: stretch;
+}
+
+.navbar a {
+    margin: 0;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .heading{
+    flex: 1;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar h1 {
+    position: absolute;
+    left: 10px;
+    font-size: 28px;
+    padding: 0 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: d;
+}
+
+.navbar a:hover {
+    background-color: rgb(109, 109, 109);
+}
+
+.main {
+    flex: 9;
+}
+}
+
+@media (max-width: 600px) { /* Cellphone */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    flex: 1;
+    background-color: grey;
+    display: flex;
+}
+
+.navbar .buttons{
+    flex: 1;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: stretch;
+}
+
+.navbar a {
+    margin: 0;
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 7px;
+    color: white;
+    display: flex;
+    margin-right: 2px;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .heading{
+    flex: 1;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar h1 {
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    padding: 0 7px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.navbar a:hover {
+    background-color: rgb(109, 109, 109);
+}
+
+.main {
+    flex: 9;
+}
+
+}

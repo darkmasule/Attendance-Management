@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 96vh;
+    width: auto;
+    border: black solid 2px;
+}
+
+.header {
+    border: red 2px solid;
+    flex: 1;
+}
+
+#title {
+    display: flex;
+    width: auto;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: clamp(10px, 4.5vw, 34px);
+}
+
+.navbar {
+    border: green 2px solid;
+    flex: 0.5;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    margin: 0;
+    padding: 3px;
+    text-decoration: none;
+    font-size: clamp(6px, 5vw, 18px);
+    color: white;
+    flex: 1;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+.section {
+    border: yellow 2px solid;
+    flex: 9;
+}
+
+#qrbutton {
+    position: absolute;
+    height: 4vh;
+    width: clamp(37px, 8vw, 90px);
+    top: 30px;
+    left: 40px;
+    font-size: clamp(6px, 1vw, 12px);
+}
+
+#sectionbutton {
+    position: absolute;
+    height: 4vh;
+    width: clamp(38px, 6vw, 56px);
+    top: 30px;
+    right: 40px;
+    font-size: clamp(6px, 1vw, 12px);
+}
+
+h1 {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}

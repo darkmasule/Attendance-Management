@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Session</title>
+    <link rel="stylesheet" href="startsession.css" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="heading">
+            <h1>Start Session</h1>
+        </div>
+        <div class="buttons">
+            <a href="">Start Session</a>
+            <a href="studentlist.html">Student List</a>
+            <a href="attedance.html">Attendance List</a>
+            <a href="index.html">Logout</a>
+        </div>
+
+    </nav>
+    <div class="main">
+        <div class="qrgen">
+            <section>
+                <label for="section" class="section">Section:</label>
+                <select name="section" id="section">
+                    <option value="N001BC">LFCAN001BC</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="subject" class="subject">Subject:</label>
+                <select name="subject" id="subject">
+                    <option value="WS1">WS1 12:00-1:30</option>
+                    <option value="CC03">CC03 10:30-12:00</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="subject" class="subject">Subject:</label>
+                <input type="date" />
+            </section>
+
+            <button>Generate QR</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
