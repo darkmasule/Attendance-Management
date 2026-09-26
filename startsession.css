@@ -161,8 +161,8 @@ body {
     border: 2px solid black;
     gap: 5px;
     padding: 5px;
-    width: 30vw;
-    height: 35vh;
+    width: 150px;
+    height: 180px;
 }
 
 .qrgen section {
