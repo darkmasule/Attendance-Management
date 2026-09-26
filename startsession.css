@@ -82,10 +82,10 @@
     display: flex;
     flex-direction: column;
 }
-}
 
 .qrgen button {
     margin-top: 10px;
+}
 }
 
 @media (max-width: 600px) { /* Cellphone */
@@ -169,5 +169,17 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.qrgen select {
+    width: 150px;
+}
+
+.qrgen input {
+    width: 145px;
+}
+
+.qrgen button {
+    margin-top: 10px;
 }
 }
